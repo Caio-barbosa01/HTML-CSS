@@ -57,6 +57,11 @@
      font-family: var(--fonte3);
      font-size: 3.5vw;
   }
+
+  section > p {
+    padding-bottom: 2em;
+  }
+
   section.normal{
      background-color: white;
      color: black;
@@ -64,7 +69,8 @@
 
   section.imagem {
      background-color: rgb(73, 71, 71);
-     color: white
+     color: white;
+     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
   }
 
   section.imagem > p {
@@ -72,6 +78,21 @@
      display: inline-block;
      padding: 10px;
      border-radius: 5px;
+  }
+
+  section#img01 {
+     background-image: url("../imagens/fundo1.jpg");
+     background-size: cover;
+     background-position: right center;
+     background-attachment: fixed;
+  }
+
+  section#img02 {
+     background-image: url("../imagens/fundo2.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center right;
+     background-attachment: fixed;
   }
 
  footer {
